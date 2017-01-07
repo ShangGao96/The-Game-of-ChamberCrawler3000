@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+\begin {document}
+
+\begin {center}
+cc3k -- Demo Plan
+\end {center}
+1. cc3k-loadfile.txt
+\begin {itemize}
+\item $1^{st}$ floor 
+RH(0), BA(1), BD(2), PH(3)\\
+\textbf{Test}:\\
+1) RH cannot exceed maximum RH -- Chamber 3\\
+2) effect of BA, BD is temporary and disappear when player goes to the next floor\\
+3) the movement of enemy -- chamber 1
+\item $2^{nd}$ floor RH(0), PH(3), WA(4), WD(5)\\
+\textbf{Test}:\\
+1) PC's Atk and Def cannot drop below 0 -- Chamber 3\\
+2) Effect of WA, WD is temporary\\
+3) For elves, the negative effect of potion is positive\\
+4) Walk to different chambers and walk on the passage and door
+\item $3^{rd}$ floor: Normal Horde (6), Small Horde(7), Merchant Horde (8), Dragon Horde(9)\\
+\textbf{Test}:\\
+1) Test the value of different treasures and different race's special abilities (dwarf double value of gold, orc half the value of gold)\\
+2) Dragon protect dragon horde, player can only get dragon horde after the dragon is dead\\
+3) Merchant is not hostile. When one merchant is attacked, all merchants become hostile to the player. After merchant die, it drops merchant horde.\\
+4) effect of gold is permanent
+\item $4^{th}$ floor\\
+\textbf{Test}:\\
+1) when player is within 1 block radius of an enemy, then enemy will attack it. For enemy, 50\% chance missing attack\\
+2) test the special abilities of enemy (Phoenix: revive; Werewolf: become wolf: Troll: regenerate HP etc.)\\
+3) upon the death of enemy, they drop gold.
+
+\item $5^{th}$ floor\\
+\textbf{Test}:\\
+1) test the whole effect the game and test that the player cannot wallk on the object except Treasure, Passage, Door\\
+2) For human, there will be 50\% in score\\
+3) the score will only be displayer when the player finish 5 floors or health reaches 0
+
+\end {itemize}
+
+
+2. random test\\
+1) Test that every time a dragon horde is spawned, a dragon is assigned to it to protect it.\\
+2) It should never be the case that the player spawns in the chamber with the staris going doen to the next floor.\\
+3) Show the code to TA that the player have initiative and alwyas attcks first . After the player attacks the enemy and the enemy dies, the enemy won't attack player.
+\end {document}

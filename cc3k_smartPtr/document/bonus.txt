@@ -1,0 +1,2 @@
+1) We use smart pointer to implement the code.
+2) We add selling ability of the merchant. You need to type the command "buy" followed by the potions you want to buy "BA, BD, RH". However, we do not implement DLC.
